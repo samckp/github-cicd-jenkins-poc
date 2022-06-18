@@ -6,7 +6,6 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sam.cicd</groupId>
 	<artifactId>cicd-demo</artifactId>
@@ -36,6 +35,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>cicd-demo-github-action</finalName>
 	</build>
 
 </project>
